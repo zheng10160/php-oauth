@@ -1,0 +1,6 @@
+{
+    "require": {
+        "bailangzhan/yii2-swiftmailer": "^1.0",
+        "iviu96afa/yii2-amqp": "dev-master"
+    }
+}

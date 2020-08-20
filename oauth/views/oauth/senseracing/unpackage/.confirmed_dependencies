@@ -1,0 +1,217 @@
+{
+	"main.html": {
+		"refer": [
+			"setting.html"
+		],
+		"resources": []
+	},
+	"login.html": {
+		"resources": [
+			"js/app.js",
+			"js/mui.min.js",
+			"images/sinaweibo.png",
+			"css/mui.min.css",
+			"css/style.css",
+			"images/weixin.png",
+			"images/qq.png",
+			"js/mui.enterfocus.js",
+			"images/login.png",
+			"css/login.css",
+			"img/login.png",
+			"img/login1.png",
+			"css/base.css",
+			"img/long-primary-enable.png",
+			"img/wechat.png",
+			"img/google.png",
+			"img/tips.png",
+			"js/jquery.js",
+			"template/register-phone.html",
+			"examples/register-phone.html",
+			"examples/reg_phone.html",
+			"examples/reset.html"
+		],
+		"refer": [
+			"main.html",
+			"reg.html",
+			"forget_password.html",
+			"template/register-phone.html",
+			"examples/register-phone.html",
+			"examples/reg_phone.html",
+			"examples/reset.html"
+		]
+	},
+	"setting.html": {
+		"resources": [
+			"libs/easymob-webim-sdk/easemob.im-1.0.5.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"libs/easymob-webim-sdk/json2.js",
+			"libs/easymob-webim-sdk/jquery-1.11.1.js",
+			"js/mui.locker.js",
+			"js/feedback.js",
+			"css/feedback-page.css",
+			"js/feedback-page.js",
+			"libs/easymob-webim-sdk/strophe-custom-2.0.0.js",
+			"js/mui.view.js"
+		],
+		"refer": []
+	},
+	"reg.html": {
+		"resources": [
+			"css/style.css",
+			"js/app.js",
+			"images/login.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"forget_password.html": {
+		"resources": [
+			"css/mui.min.css",
+			"css/style.css",
+			"js/app.js",
+			"images/login.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/login.css",
+			"css/mui.min.css"
+		]
+	},
+	"template/register-phone.html": {
+		"resources": [
+			"css/base.css",
+			"img/long-primary-enable.png",
+			"img/google.png",
+			"css/login.css",
+			"img/login.png",
+			"css/mui.min.css",
+			"img/tips.png",
+			"img/wechat.png",
+			"js/mui.min.js",
+			"js/jquery.js",
+			"css/register.css"
+		]
+	},
+	"examples/register-phone.html": {
+		"resources": [
+			"css/base.css",
+			"css/login.css",
+			"css/mui.min.css",
+			"css/register.css",
+			"login.html",
+			"img/long-primary-enable.png",
+			"js/mui.min.js",
+			"img/login.png",
+			"img/tips.png",
+			"js/jquery.js"
+		],
+		"refer": [
+			"login.html"
+		]
+	},
+	"examples/reg_phone.html": {
+		"resources": [
+			"css/base.css",
+			"css/login.css",
+			"css/mui.min.css",
+			"css/register.css",
+			"img/long-primary-enable.png",
+			"js/mui.min.js",
+			"img/login.png",
+			"img/tips.png",
+			"js/jquery.js",
+			"examples/reg_phone.html",
+			"img/short-enable.png",
+			"login.html"
+		],
+		"refer": [
+			"examples/reg_email.html",
+			"examples/reg_phone.html",
+			"login.html"
+		]
+	},
+	"examples/reg_email.html": {
+		"resources": [
+			"css/base.css",
+			"img/long-primary-enable.png",
+			"js/mui.min.js",
+			"css/login.css",
+			"img/login.png",
+			"css/mui.min.css",
+			"css/register.css",
+			"img/tips.png",
+			"js/jquery.js",
+			"img/short-enable.png",
+			"examples/reg_email.html"
+		],
+		"refer": [
+			"examples/reg_phone.html",
+			"examples/reg_email.html"
+		]
+	},
+	"examples/reset.html": {
+		"resources": [
+			"css/register.css",
+			"login.html",
+			"css/mui.min.css",
+			"css/base.css",
+			"js/mui.min.js",
+			"css/login.css",
+			"img/login.png",
+			"js/jquery.js",
+			"img/long-primary-enable.png",
+			"examples/reset_email.html",
+			"examples/reset_phone.html"
+		],
+		"refer": [
+			"login.html",
+			"examples/reset_email.html",
+			"examples/reset_phone.html"
+		]
+	},
+	"examples/reset_email.html": {
+		"resources": [
+			"img/short-enable.png",
+			"img/tips.png",
+			"examples/reset.html",
+			"css/mui.min.css",
+			"css/base.css",
+			"css/login.css",
+			"css/register.css",
+			"img/long-primary-enable.png",
+			"js/mui.min.js",
+			"img/login.png",
+			"js/jquery.js"
+		],
+		"refer": [
+			"examples/reset.html"
+		]
+	},
+	"examples/reset_phone.html": {
+		"resources": [
+			"examples/reset.html",
+			"css/mui.min.css",
+			"css/base.css",
+			"img/long-primary-enable.png",
+			"js/mui.min.js",
+			"css/login.css",
+			"img/short-enable.png",
+			"img/login.png",
+			"css/register.css",
+			"img/tips.png",
+			"js/jquery.js",
+			"examples/reset_phone.html"
+		],
+		"refer": [
+			"examples/reset.html",
+			"examples/reset_phone.html"
+		]
+	}
+}

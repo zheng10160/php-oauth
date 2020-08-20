@@ -1,0 +1,205 @@
+a,button,input{ 
+
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);    
+
+   -webkit-user-modify: read-write-plaintext-only;
+   box-shadow: none;
+
+}
+.ui-page-login,
+body {
+	width: 100%;
+	height:100%;
+	overflow: hidden
+	margin: 0px;
+	padding: 0px;
+	/*background: url(../../images/senseracing/login.png) no-repeat 100% 100%;*/
+	background-repeat: no-repeat;
+	/*background-position: 0px 0px;*/
+	background-size: 100% 100%;
+	background-size: cover;
+	/*background-repeat: repeat-y;*/
+}
+.big-wrap{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: url(../../images/senseracing/login.png) no-repeat 100% 100%;
+	background-size: cover;
+	overflow:auto;
+}
+/*登陆头部*/
+.mui-bar-nav {
+    top: 0;
+    -webkit-box-shadow:none;
+    box-shadow: 0 1px 6px #1C2739;
+    background: #21263B;
+    opacity:0.8;
+}
+.mui-bar-nav h1{
+	color:#fff;
+	font-size: 20px;
+  	font-weight: 600;
+}
+.login-form{
+
+	width:48%;
+	margin:0 auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:96px;
+	margin-bottom: 27px;	
+	background: none;
+}
+.login-form .user{
+	width:100%;
+	border-radius:4px;
+	
+}
+.login-form .user input{
+	outline: none;
+	border:0;
+	width:100%;
+	height:100%;
+	display: block;
+	color:#cccccc !important;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	
+}
+/*登录按钮*/
+.submit{
+	height:40px;
+	width:100%;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height:40px;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	background: url(../../images/senseracing/long-primary-enable.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+.account-box{
+	width:100%;
+	height:24px;
+	margin-top:24px;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.account-box .box span{
+	 font-size: 12px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 2;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #cccccc; 
+}
+.account-box .box a{
+	font-size: 12px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 2;
+	  letter-spacing: normal;
+	  text-align: left;
+	  color: #63cbf7;
+}
+.account-box .sf{
+	width:50%;
+	display:flex;
+	justify-content: flex-end;
+}
+.account-box .sf a{
+	display:block;
+	width:44px;
+	height:44px;
+}
+.account-box .sf a:nth-child(1){
+	background: url(../../images/senseracing/wechat.png) no-repeat center center;
+	    background-size: cover;
+}
+.account-box .sf a:nth-child(2){
+	margin-left:12px;
+	background: url(../../images/senseracing/google.png) no-repeat center center;   
+	 background-size: cover;
+}
+/*提示信息*/
+.ts{
+	position: absolute;
+	left:0;
+	top:0px;
+	height:72px;
+	width:100%;
+	display:none;
+	 box-shadow:#16374E 0 0 100px ;
+	 line-height: 72px;
+	 text-align: center;
+	 color:#fff;
+	 font-size: 14px;
+	background: url(../../images/senseracing/tips.png) no-repeat center center;
+	    background-size: cover;
+}
+.user .fsyym{
+	height:100%;
+	width:120px;
+	height:40px;
+	align-self: center;
+	margin-bottom: 14px;
+	color:#fff;
+	border:none;
+	border-radius: 4px;
+	/*line-height:40px;*/
+	background: url(../../images/senseracing/short-enable.png) no-repeat 100% 100%;
+	background-size: cover;
+}
+/*响应pad*/
+
+@media screen and (min-width:768px){
+	.big-wrap{
+		position: fixed;
+		overflow: auto;
+	}
+	.login-form {
+	    width: 48%;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-top: 96px;
+	    margin-bottom: 27px;
+	    background: none;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%,-50%);
+	}
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:568px){
+	.login-form {
+	    width: 80%;
+	    margin: 0 auto;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-bottom: 27px;
+	    background: none;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%,-50%);
+	}
+
+}

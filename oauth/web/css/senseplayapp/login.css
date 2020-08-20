@@ -1,0 +1,288 @@
+.ui-page-login,
+body {
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-size: cover;
+	 background-color: #161823;
+}
+.big-wrap{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow: scroll;
+	display:flex;
+	flex-direction:column;
+	padding-top:24px;
+}
+/*登陆头部*/
+.header-nav {
+	background:none;
+    width:100%;
+    box-shadow:none;
+	box-sizing:border-box;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin-bottom:0.1rem;
+}
+.header-nav span{
+	color:#fff;
+	font-size:25px;
+	line-height:0.88rem;
+}
+.header-nav a{
+	font-size: 14px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.57;
+  	letter-spacing: normal;
+  	text-align: right;
+  	color: #ffffff;
+}
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.login-denglu{
+	display:block;
+	height:0.8rem;
+	width:100%;
+	text-align:left;
+	font-size: 32px;
+  	font-weight: 600;
+  	font-style: normal;
+  	font-stretch: normal;
+  	letter-spacing: normal;
+  	color: #ffffff;
+  	line-height:0.8rem;
+  	margin-bottom:0.16rem;
+}
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.dl-des{
+	display:block;
+	height:0.56rem;
+	font-size: 20px;
+  	font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.56rem;
+    letter-spacing: normal;
+    color: #ffffff;
+  	text-align:left;
+	box-sizing:border-box;
+
+}
+.dl-des-dl{
+    margin-bottom:0.8rem;
+}
+/**************************************new*/
+// 信息提交框
+.login-form{
+	width:368px;
+	margin:0 auto;
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	margin-top:24px;
+	margin-bottom: 27px;
+	background:#0C1828;
+	padding:0 24px 12px 24px;
+	box-sizing: border-box;
+	opacity: 0.9;
+}
+.login-form .input-des{
+	font-size:14px;
+	padding:0;
+}
+.login-form .user{
+	margin-bottom: 16px;
+}
+
+/*清楚按钮*/
+.clear-text{
+	position: absolute;right:-2px;top:10px;display:none;color:#fff;
+	font-size:16px;
+}
+
+.login-form .user{
+	width:100%;
+	border-radius:4px;
+	height: 40px;
+	box-sizing: border-box;
+
+}
+.login-form .user input{
+	outline: none;
+	border:0;
+	width:100%;
+	height:100%;
+	display: block;
+	color:#fff !important;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-size: 20px;
+	letter-spacing: 0;
+	margin:0;
+	box-sizing: border-box;
+	background:transparent;
+	border-bottom:1px solid rgba(255,255,255,0.25);
+
+}
+input::-webkit-input-placeholder{
+    color:#fff;
+}
+/*登录按钮*/
+
+/***********************************************new*/
+.submit{
+	height:48px;
+	width:100%;
+	border-radius: 4px;
+  	background-color: #14c867;
+  	color:#fff;
+  	font-size: 16px;
+  	font-weight: 600;
+  	margin-bottom:0.78rem !important;
+    margin-top:0.8rem;
+}
+
+/***********************************************new*/
+.account-box{
+	width:100%;
+	display:flex;
+	align-items: center;
+	margin-bottom: 16px;
+
+}
+.other-box{
+	margin: 0;
+	flex-direction:column;
+}
+.account-box .box span{
+	opacity: 0.45;
+  font-family: PingFangSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.account-box .box a{
+	opacity: 0.65;
+  	font-family: PingFangSC;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+/*提示信息*/
+.ts{
+	position: absolute;
+	left:50%;
+	top:0px;
+	height:48px;
+	max-width:100%;
+	min-width:158px;
+	display:none;
+	line-height: 48px;
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	border-radius: 4px;
+	transform:translateX(-50%);
+	background:rgba(255,255,255,.25);
+}
+
+
+.other-box a{
+	height:0.96rem;
+	width:0.96rem;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-radius:50%;
+	margin-top:24px;
+}
+.other-box a svg{
+	width:0.96rem;
+	height:0.96rem;
+	border-radius:50%;
+}
+.login-form{
+	padding:0 24px;
+}
+/*响应pad*/
+
+// @media screen and (min-width:768px){
+// 	.big-wrap{
+// 		position: fixed;
+// 		overflow: auto;
+// 	}
+// 	.login-form {
+// 	    width: 368px;
+// 	    margin: 0 auto;
+// 	    display: flex;
+// 	    flex-direction: column;
+// 	    align-items: center;
+// 	    position: absolute;
+// 	    top: 50%;
+// 	    left: 50%;
+// 	    /*margin-top:24px;*/
+// 		margin-bottom: 27px;
+// 		background:#0C1828;
+// 		padding:0 24px 12px 24px;
+// 		box-sizing: border-box;
+// 		transform: translate(-50%,-50%);
+// 		-ms-transform: translate(-50%,-50%);	/* IE 9 */
+// 		-moz-transform: translate(-50%,-50%);	/* Firefox */
+// 		-webkit-transform: translate(-50%,-50%); /* Safari 和 Chrome */
+// 		-o-transform: translate(-50%,-50%);	/* Opera */
+
+// 	}
+
+// }
+
+// @media screen and (min-width:320px) and (max-width:568px){
+// 		.login-form {
+// 		    width: 368px;
+// 		    margin: 0 auto;
+// 		    display: flex;
+// 		    flex-direction: column;
+// 		    align-items: flex-start;
+// 		    margin-top:24px;
+// 			margin-bottom: 27px;
+// 			background:#0C1828;
+// 			padding:0 24px 12px 24px;
+// 			box-sizing: border-box;
+// 		    position: absolute;
+// 		    top: 50%;
+// 		    left: 50%;
+// 		    transform: translate(-50%,-50%);
+// 			-ms-transform: translate(-50%,-50%);	/* IE 9 */
+// 			-moz-transform: translate(-50%,-50%);	/* Firefox */
+// 			-webkit-transform: translate(-50%,-50%); /* Safari 和 Chrome */
+// 			-o-transform: translate(-50%,-50%);	/* Opera */
+// 		}
+// }
+

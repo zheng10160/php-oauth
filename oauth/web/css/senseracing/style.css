@@ -1,0 +1,9 @@
+.ui-page-login,
+body {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	background:url(../images/login.png) no-repeat center center; 
+}
+.mui-content{height: 100%;}

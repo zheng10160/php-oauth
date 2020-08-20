@@ -1,0 +1,39 @@
+/*
+* @Author: Marte
+* @Date:   2018-01-23 15:49:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-23 16:39:32
+*/
+// input输入框
+// 48 520
+input{
+    border-radius: 4px;
+    border: solid 1px #ced7de;
+}
+.input-s{
+    line-height:3rem/* 48px */;
+
+}
+
+
+
+// 40 640
+.input-l{
+    line-height:2.5rem/* 40px */;
+    border-radius: 4px;
+    border: solid 1px #ced7de;
+}
+
+
+// 40 308
+
+
+
+// textarea文本域
+// 1 640 112
+.textarea1{
+    height:7rem/* 112px */;
+    width:40rem/* 640px */;
+    resize:none;
+}
+

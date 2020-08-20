@@ -1,0 +1,14 @@
+.login,.login .ts{text-align:center}body,html{padding:0;margin:0}input{outline:0;border:0}header{width:100%;margin-top:.64rem;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;margin-bottom:.32rem}header img{display:inline-block;height:88px;width:120px}.input-box{width:82%;height:.48rem;border-bottom:1px solid #dfdfdf;display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:center;align-items:center;margin:0 auto .16rem}.input-box .tubiao{width:.32rem;height:.32rem;background:url(../../images/sensego/Textfield_User@3x.png) 100% 100% no-repeat;background-size:cover}.input-box input{width:85%;line-height:.24rem;height:.24rem;border:0;font-size:16px;color:#1c1c1c;overflow:hidden;text-overflow:ellipsis;white-space:no-wrap}.input-box .pass{width:.32rem;height:.32rem;background:url(../../images/sensego/Textfield_PW@3x.png) 100% 100% no-repeat;background-size:cover}.login{display:block;width:82%;height:0.4rem;border:none;outline:0;margin:0.08rem auto 0;background:#157fed;border-radius:4px;font-size:16px;color:#fff;line-height:0.4rem;position:relative}.login .ts{position:absolute;top:-40%;left:0;right:0;box-shadow:#16374E 0 0 1rem;background:#2B343C;font-size:12px;line-height:.4rem;border-radius:4px;display:none}.operate-con,.third{border:none;padding:0}.input-box a{font-size:12px;line-height:.24rem}.input-box .clear{width:.24rem;height:.24rem;background:url(../../images/sensego/Textfiled_Clear@3x.png) 100% 100% no-repeat;background-size:cover;display:none}.operate-con{-ms-flex-pack:justify;justify-content:space-between;margin-bottom:.48rem}.input-box a:nth-child(1){color:#666}.input-box a:nth-child(2){color:#157fed}.third{-ms-flex-pack:justify;justify-content:space-between}.third span:nth-child(1),.third span:nth-child(3){width:.96rem;height:1px;background:#dfdfdf}.third span:nth-child(2){font-size:14px;color:#666}.third .qita{display:block;height:.48rem;width:.48rem;margin:0 auto;background:url(../../images/sensego/OAuth_Google@3x.png) 100% 100% no-repeat;background-size:cover}
+/*# sourceMappingURL=login.css.map */
+
+body,html{
+	background:#fff !important;
+}
+
+/*s适配平板*/
+@media screen and (min-width:768px){
+    html,body{
+        font-size:100px !important;
+    }
+
+}

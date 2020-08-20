@@ -1,0 +1,17 @@
+*{margin:0;padding:0;font-size:16px;font-family:Helvetica,sans-serif;box-sizing:border-box;line-height:1.15}body,dd,dl,dt,figcaption,figure,footer,form,header,input,li,ol,option,p,pre,section,select,textarea,ul{list-style:none;margin:0;padding:0;border:none;outline:0}body{font-family:"苹方","Microsoft Yahei","黑体","宋体",sans-serif;background:#EFEFEF}a{text-decoration:none;-webkit-tap-highlight-color:transparent;background-color:transparent}img{border:0}button,input{overflow:visible}.dantext,.duotext{overflow:hidden;text-overflow:ellipsis}.dantext{white-space:nowrap}.duotext{-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box}
+/*# sourceMappingURL=base.css.map */
+img,a,p,span,i,ul,li{
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select: none;
+}
+
+ button{
+ 	border:0;
+ 	-webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+ }
